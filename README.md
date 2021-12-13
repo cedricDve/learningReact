@@ -1,3 +1,4 @@
+ `git clone https://github.com/cedricDve/learningReact `
  ### 1. Create a new project
 
 ```powershell
