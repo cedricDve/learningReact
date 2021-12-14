@@ -1,4 +1,5 @@
 import './App.css';
+import Questions from './Questions';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
           <h1 className='pb-2 text-center'>Burnout Prevention Informationplatform</h1>
           <hr></hr>
         </div>
-
+        
+        {/* Home Cards */}
         <div className='row p-5'>
           {/* First Column */}
           <div className='col-sm-6'>
@@ -80,7 +82,15 @@ function App() {
             </div>
           </div>       
         </div>
+
+        <hr></hr>
+
       </div>
+
+      <div className='center-widget-h m-5'>
+      <Questions/>
+      </div>
+      
     </div>
   );
 }
